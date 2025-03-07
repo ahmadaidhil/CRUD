@@ -21,7 +21,7 @@ public class Database {
     public void open(){
         try {
             List<String> lines = Files.readAllLines(path);
-            data = new ArrayList<>();
+            // data = new ArrayList<>();
             for (int i = 1; i < lines.size(); i++) {
                 String line = lines.get(i);
                 String[] element = line.split(",");
