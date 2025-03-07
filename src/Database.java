@@ -75,6 +75,7 @@ public class Database {
             System.out.println();
         }
         System.out.println("==================================================================================");
+        System.out.println("By : Achmad Aidhil");
     }
 
     public boolean insert(String nim, String nama, String alamat, int semester, int sks, double ipk){
